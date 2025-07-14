@@ -237,25 +237,38 @@ nav{
 /* footer section */
 .footer-container{
     display: flex;
-    padding: 0 71px;
-    gap: 0px;
+    justify-content: center;
+    padding: 119px 171px 14px 129px;
+    background-color: #fff;
+
 }
 
 .footer-section{
     display: flex;
+    background-color: #fff;
     font-family: "Raleway", sans-serif;
-    font-size: 60px;
+    padding: 71px 0;
+    max-width: 100%;
+    width: 100%;
+    gap: 115px;
 }
+
+.footer-title{
+    font-size: 97px;
+}
+
 
 .content-form{
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    
+    gap: 20px;
 }
 
 .btn-footer{
-    font-size: 16px;
-    padding: 19px 201px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 19px 101px;
     background-color: #4E47FF;
     color: white;
     border: none;
@@ -265,15 +278,22 @@ nav{
 }
 
 .content-form input{
+    width: 497px;
     height: 70px;
     border-radius: 10px;
+    padding: 19px;
     background-color: #f8f9fa;
     border: none;
+    font-size: 18px;
 }
 
 .content-form textarea{
+    width: 497;
     height: 135px;
+    font-size: 18px;
     border-radius: 10px;
+    padding: 20px 32px;
     background-color: #f8f9fa;
     border: none;
+    resize: vertical;
 }
